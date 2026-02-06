@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            Azizbek <span>Mullabekov</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#academics">Academics</a>
+            <a href="#extracurricular">Extracurricular</a>
+            <a href="social.html">Social Media</a>
+        </nav>
+
+        <div class="header-right">
+            <a href="#contact" class="gradient-btn">Contact Me</a>
+            <i class='bx bx-moon' id="darkmode-icon"></i>
+        </div>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Aziz</span></h1>
+            <h3>
+                I'm a <span>High School Senior</span>
+            </h3>
+            
+            <p>
+                I am a graduating student at the <b>Specialized Boarding School No. 1</b> in Gulistan. 
+                With a strong academic foundation and high achievements in standardized tests (IELTS 9.0 & SAT), 
+                I am eager to pursue higher education and contribute to the global academic community.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://t.me/mullabekoff" target="_blank"><i class="bx bxl-telegram"></i></a>
+                <a href="https://instagram.com/mullabekoff" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://github.com/mullabekoff" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="mailto:mullabekoff@gmail.com"><i class="bx bxl-gmail"></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#about" class="btn">About Me</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+        
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="image.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>My name is <b>Azizbek Mullabekov</b>, from Gulistan, Uzbekistan. 
+                I am currently a senior at the <b>Specialized Boarding School No. 1</b>, where I focus on exact sciences and critical thinking.
+                <br><br>
+                My academic strength lies in the combination of <b>advanced mathematical logic</b> and <b>linguistic proficiency</b>. 
+                Beyond the curriculum, I actively engage in intellectual competitions like "Zakovat" and extracurricular projects, 
+                demonstrating my ability to solve complex problems and work effectively in a team.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        
+    </section>
+
+    <section class="academics" id="academics">
+
+        <h2 class="heading">My <span>Achievements</span></h2>
+
+        <div class="academics-container">
+            
+            <div class="academics-box">
+                <div class="academics-info">
+                    <i class='bx bx-globe'></i>
+                    <h4>IELTS</h4>
+                    <p>Achieved a perfect overall Band Score of <b>9.0</b>. Demonstrating expert proficiency in English communication.</p>
+                    
+                    <a href="certs/ielts.pdf" target="_blank" class="cert-btn">
+                        View Certificate <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="academics-box">
+                <div class="academics-info">
+                    <i class='bx bx-brain'></i>
+                    <h4>SAT</h4>
+                    <p>Scored <b>1360</b> on the SAT Reasoning Test, showing strong analytical and problem-solving skills.</p>
+                    
+                    <a href="certs/sat.pdf" target="_blank" class="cert-btn">
+                        View Certificate <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="academics-box">
+                <div class="academics-info">
+                    <i class='bx bx-certification'></i>
+                    <h4>Multilevel B2</h4>
+                    <p>Holder of the National Certificate (CEFR B2) with a score of <b>54</b>, confirming strong language capabilities.</p>
+                    
+                    <a href="certs/multilevel.pdf" target="_blank" class="cert-btn">
+                        View Certificate <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="extracurricular" id="extracurricular">
+        <h2 class="heading">Extracurricular</h2>
+        <div class="extracurricular-box">
+
+            <div class="extracurricular-card">
+                <img src="extracurricular1.png" alt="Futbol">
+                <h3>Futbol 1-o'rin</h3>
+                <p>Sinfdoshlarim bilan Respublika bosqichida g'olib bo'ldik.</p>
+                
+                <button class="btn view-modal-btn" 
+                    data-images="extracurricular1.png" 
+                    data-title="Futbol Musobaqasi" 
+                    data-desc="Bu musobaqa juda qizg'in kechdi. Biz maktab jamoasi bilan uzoq tayyorgarlik ko'rdik va respublika bosqichida faxrli 1-o'rinni egalladik.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="extracurricular-card">
+                <img src="extracurricular2.png" alt="Shaxmat">
+                <h3>Shaxmat 1-o'rin</h3>
+                <p>Aql charxi musobaqasida maktab chempioni bo'ldim.</p>
+                
+                <button class="btn view-modal-btn" 
+                    data-images="extracurricular2.png" 
+                    data-title="Shaxmat Turniri" 
+                    data-desc="Shaxmat bo'yicha 'Aql charxi' musobaqasida ishtirok etdim. Ko'plab raqiblar bilan kuch sinashib, yakunda maktab chempioni bo'ldim.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="extracurricular-card">
+                <img src="extracurricular3.png" alt="Zakovat">
+                <h3>Zakovat 1-o'rin</h3>
+                <p>Intellektual o'yinlarda jamoaviy g'alaba.</p>
+                
+                <button class="btn view-modal-btn" 
+                    data-images="extracurricular3.png" 
+                    data-title="Zakovat O'yinlari" 
+                    data-desc="Zakovat intellektual o'yinlarida sinfdoshlarim bilan jamoa bo'lib qatnashdik. Mantiqiy savollarga tez va aniq javob berib, g'alaba qozondik.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="extracurricular-card">
+                <img src="extracurricular4.png" alt="Eco Science">
+                <h3>Eco-science musobaqasi</h3>
+                <p>2023-yil "Aqlli uy" loyihasi bilan faxrli 2-o'rin.</p>
+                
+                <button class="btn view-modal-btn" 
+                    data-images="extracurricular4.png" 
+                    data-title="Eco-science Loyihasi" 
+                    data-desc="Eco-science tanlovida 'Aqlli uy' (Smart Home) maketini yasadim. Bu loyiha ekologiya va texnologiyani birlashtirgani uchun hakamlar tomonidan yuqori baholandi.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="extracurricular-card">
+                <img src="extracurricular5.png" alt="Voleybol">
+                <h3>Voleybol 2-o'rin</h3>
+                <p>Sport musobaqalarida faol ishtirok.</p>
+                
+                <button class="btn view-modal-btn" 
+                    data-images="extracurricular5.png" 
+                    data-title="Voleybol Musobaqasi" 
+                    data-desc="Voleybol musobaqasida sinfdoshlarim bilan faol ishtirok etdik va faxrli 2-o'rinni qo'lga kiritdik. Sport sog'lik garovidir.">
+                    View Details
+                </button>
+            </div>
+            
+            <div class="extracurricular-card">
+                <img src="extracurricular6.png" alt="G'oliblar">
+                <h3>G'oliblar loyihasi</h3>
+                <p>Intizom va shaxsiy rivojlanish kursi bitiruvchisi.</p>
+                
+                <button class="btn view-modal-btn" 
+                    data-images="extracurricular6.png" 
+                    data-title="G'oliblar Loyihasi" 
+                    data-desc="Bir oylik 'G'oliblar' intizom va shaxsiy rivojlanish kursini muvaffaqiyatli tamomladim. Bu loyiha menga vaqtni to'g'ri taqsimlashni o'rgatdi.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="extracurricular-card">
+                <img src="extracurricular7.png" alt="Al-Xorazmiy Olimpiadasi">
+                <h3>Al-Xorazmiy Olimpiadasi</h3>
+                <p>Fizika fani bo'yicha 2-o'rin.</p>
+
+                <button class="btn view-modal-btn"
+                    data-images="extracurricular7.png, ironman.png"
+                    data-title="Al-Xorazmiy Olimpiadasi"
+                    data-desc="Bu olimpiadaga yaxshigina tayyorlangan edim va faxrli 2-o'rinni olganman. Men bu olimpiadaga tayyorlanish jarayonida shuni tushunganmanki; Har kim harakat qilsa, albatta o'ylagan maqsadlariga yetishadi">
+                     View Details
+                </button>
+            </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xvzbpzlq" method="POST">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="Ism-Familiya" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="Telefon raqam" placeholder="Phone Number" required>
+                    <input type="text" name="Sarlavha" placeholder="Title" required>
+                </div>
+            </div>
+            
+            <div class="input-group-2">
+                <textarea name="Xabar matni" id="" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="https://t.me/mullabekoff" target="_blank"><i class="bx bxl-telegram"></i></a>
+                <a href="https://instagram.com/mullabekoff" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://github.com/mullabekoff" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="mailto:mullabekoff@gmail.com"><i class="bx bxl-gmail"></i></a>
+            </div>
+
+            <ul class="list">
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#extracurricular">Extracurricular</a></li>
+                <li><a href="social.html">Social Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <p class="copyright">
+                © 2024 Azizbek Mullabekov | All rights Reserved
+            </p>
+    </footer>
+
+    <div id="portfolioModal" class="modal">
+        <span class="close-btn">&times;</span>
+        
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Full Image">
+            
+            <div class="modal-nav">
+                <i class='bx bx-chevron-left' id="prevBtn"></i>
+                <i class='bx bx-chevron-right' id="nextBtn"></i>
+            </div>
+
+            <div class="modal-text">
+                <h3 id="modalTitle">Title</h3>
+                <p id="modalDesc">Description goes here...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
