@@ -961,4 +961,36 @@ section {
 }
 .light-mode .back-home-btn:hover {
     color: white;
+
+}
+/* --- TELEGRAM LINK TUGMASI DIZAYNI --- */
+.link-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem; 
+    height: 4rem; 
+    border-radius: 50%;
+    background: transparent; 
+    border: 2px solid var(--main-color);
+    color: var(--main-color); 
+    font-size: 2.2rem; 
+    transition: 0.3s;
+    text-decoration: none; /* Tagidagi chiziqni olib tashlash */
+}
+
+.link-btn:hover {
+    background: var(--main-color); 
+    color: white; 
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px var(--main-color);
+}
+
+/* Tugmalarni yonma-yon qilish uchun */
+.card-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Tugmalar orasidagi masofa */
+    margin-top: 15px;
 }
