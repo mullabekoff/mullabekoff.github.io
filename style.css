@@ -963,39 +963,39 @@ section {
     color: white;
 
 }
-/* --- TELEGRAM LINK TUGMASI DIZAYNI --- */
+/* Tugmalarni ushlab turuvchi quti */
+.card-actions {
+    display: flex;
+    flex-direction: column; /* Elementlarni ustma-ust (tagma-tag) qiladi */
+    align-items: center;    /* O'rtaga to'g'irlaydi */
+    gap: 20px;              /* Tugma va Ikonka orasidagi masofa */
+    margin-top: auto;       /* Pastdan joylashish uchun */
+    width: 100%;
+}
+
+/* Telegram tugmasi dizayni */
 .link-btn {
-    display: inline-flex;
+    display: flex;          /* Ichidagi ikonkani o'rtaga olish uchun */
     align-items: center;
     justify-content: center;
-    width: 4rem; 
-    height: 4rem; 
+    width: 4.5rem;          /* Biroz kattalashtirdik */
+    height: 4.5rem; 
     border-radius: 50%;
     background: transparent; 
     border: 2px solid var(--main-color);
     color: var(--main-color); 
-    font-size: 2.2rem; 
+    font-size: 2.4rem; 
     transition: 0.3s;
-    text-decoration: none; /* Tagidagi chiziqni olib tashlash */
+    text-decoration: none;
+    
+    /* Margin kerak emas, chunki tepadagi 'gap: 20px' masofa ochib beradi */
+    margin-top: 0; 
 }
 
 .link-btn:hover {
     background: var(--main-color); 
     color: white; 
-    transform: translateY(-3px);
-    box-shadow: 0 0 10px var(--main-color);
+    transform: translateY(-5px); /* Hover bo'lganda sal ko'tariladi */
+    box-shadow: 0 0 15px var(--main-color);
 }
-
-/* Tugmalarni yonma-yon qilish uchun */
-.card-actions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px; /* Tugmalar orasidagi masofa */
-    margin-top: 15px;
-}
-/* MANA SHU QATORNI QO'SHING YOKI O'ZGARTIRING 👇 */
-    margin-top: 35px; /* Ikonkani pastroqqa tushiradi */
-}
-
 
