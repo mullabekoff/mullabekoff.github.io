@@ -963,15 +963,6 @@ section {
     color: white;
 
 }
-/* Tugmalarni ushlab turuvchi quti */
-.card-actions {
-    display: flex;
-    flex-direction: column; /* Elementlarni ustma-ust (tagma-tag) qiladi */
-    align-items: center;    /* O'rtaga to'g'irlaydi */
-    gap: 20px;              /* Tugma va Ikonka orasidagi masofa */
-    margin-top: auto;       /* Pastdan joylashish uchun */
-    width: 100%;
-}
 
 /* Telegram tugmasi dizayni */
 .link-btn {
@@ -998,3 +989,4 @@ section {
     transform: translateY(-5px); /* Hover bo'lganda sal ko'tariladi */
     box-shadow: 0 0 15px var(--main-color);
 }
+
